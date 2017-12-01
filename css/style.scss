@@ -1,0 +1,128 @@
+body{
+    width: 100%;
+    font-size: .12rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    height: .5rem;
+    border-bottom: 1px solid  #ccc;
+    display: flex;
+    position: relative;
+    a{
+     line-height: .5rem;
+        &:nth-child(1){
+            padding-left: .1rem;
+            img{
+                width: 1.32rem;
+                height: .31rem;
+                margin-top: .09rem;
+            }
+        }
+         &:nth-child(2){
+             position: absolute;
+             right: .36rem;
+             top: 0;
+             i{
+                 font-size: .18rem;
+             }
+         }
+        &:nth-child(3){
+             position: absolute;
+             right: .1rem;
+             top: 0;
+             i{
+                 font-size: .18rem;
+             }
+         }
+    }
+}
+.main{
+    flex: 1;
+    overflow-y:scroll;
+    background: #ededed;
+    .swiper-container{
+        width: 100%;
+        .swiper-pagination span{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: lawngreen;
+            .swiper-slide img{
+             width: 100%;
+             height: auto;
+            }
+        }
+    }
+    .shuom{
+        height: .58rem;
+        background: #fff;
+        p{
+            margin-left: .1rem;
+            margin-right: .1rem;
+            line-height: .28rem;
+           
+        }
+        .p1{
+            border-bottom: 1px dashed #ccc;
+        }
+    }
+    .ll{
+        background: #fff;
+        margin-top: .08rem;
+        h3{
+            line-height: .48rem;
+            text-align: center;
+            border-bottom: 1px solid #ccc;
+        }
+        .list{
+            display: flex;
+            flex-wrap: wrap;
+            li{
+                width: 25%;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                padding: .15rem  0 ;
+                i{
+                    width: .4rem;
+                    height: .4rem;
+                    border-radius: 50%;
+                    line-height: .4rem;
+                    text-align: center;
+                    color: #fff;
+                     background-color:#39cccc
+                }
+                span{
+                    padding-top: .1rem;
+                }
+            }
+        }
+    }
+    .tab{
+        .tab-log{
+                   margin-top: .15rem;
+                    width: 100%;
+                    padding-left: .1rem;
+                    padding-right: .1rem;
+                    box-sizing: border-box;
+                    background: #fff;
+                    padding-bottom: .14rem;
+                    padding-top: .14rem;
+        }
+        ul{
+            height: 3.2rem;
+            li{
+                height: .5rem;
+                background: #fff;
+                line-height: .4rem;
+                box-sizing: border-box;
+                padding-left: .1rem;
+                border-top: 1px solid #ccc;
+            }
+        }
+    }
+}

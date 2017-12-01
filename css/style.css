@@ -1,0 +1,104 @@
+body {
+  width: 100%;
+  font-size: .12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column; }
+
+.header {
+  height: .5rem;
+  border-bottom: 1px solid  #ccc;
+  display: flex;
+  position: relative; }
+  .header a {
+    line-height: .5rem; }
+    .header a:nth-child(1) {
+      padding-left: .1rem; }
+      .header a:nth-child(1) img {
+        width: 1.32rem;
+        height: .31rem;
+        margin-top: .09rem; }
+    .header a:nth-child(2) {
+      position: absolute;
+      right: .36rem;
+      top: 0; }
+      .header a:nth-child(2) i {
+        font-size: .18rem; }
+    .header a:nth-child(3) {
+      position: absolute;
+      right: .1rem;
+      top: 0; }
+      .header a:nth-child(3) i {
+        font-size: .18rem; }
+
+.main {
+  flex: 1;
+  overflow-y: scroll;
+  background: #ededed; }
+  .main .swiper-container {
+    width: 100%; }
+    .main .swiper-container .swiper-pagination span {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: lawngreen; }
+      .main .swiper-container .swiper-pagination span .swiper-slide img {
+        width: 100%;
+        height: auto; }
+  .main .shuom {
+    height: .58rem;
+    background: #fff; }
+    .main .shuom p {
+      margin-left: .1rem;
+      margin-right: .1rem;
+      line-height: .28rem; }
+    .main .shuom .p1 {
+      border-bottom: 1px dashed #ccc; }
+  .main .ll {
+    background: #fff;
+    margin-top: .08rem; }
+    .main .ll h3 {
+      line-height: .48rem;
+      text-align: center;
+      border-bottom: 1px solid #ccc; }
+    .main .ll .list {
+      display: flex;
+      flex-wrap: wrap; }
+      .main .ll .list li {
+        width: 25%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.15rem 0; }
+        .main .ll .list li i {
+          width: .4rem;
+          height: .4rem;
+          border-radius: 50%;
+          line-height: .4rem;
+          text-align: center;
+          color: #fff;
+          background-color: #39cccc; }
+        .main .ll .list li span {
+          padding-top: .1rem; }
+  .main .tab .tab-log {
+    margin-top: .15rem;
+    width: 100%;
+    padding-left: .1rem;
+    padding-right: .1rem;
+    box-sizing: border-box;
+    background: #fff;
+    padding-bottom: .14rem;
+    padding-top: .14rem; }
+  .main .tab ul {
+    height: 3.2rem; }
+    .main .tab ul li {
+      height: .5rem;
+      background: #fff;
+      line-height: .4rem;
+      box-sizing: border-box;
+      padding-left: .1rem;
+      border-top: 1px solid #ccc; }
+
+/*# sourceMappingURL=style.css.map */
